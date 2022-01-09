@@ -1,8 +1,8 @@
 import { parser } from "lezer-gml";
-import { LezerLanguage, LanguageSupport, indentNodeProp, continuedIndent, foldNodeProp } from "@codemirror/language";
+import { LRLanguage, LanguageSupport, indentNodeProp, continuedIndent, foldNodeProp } from "@codemirror/language";
 import { styleTags, tags } from "@codemirror/highlight";
 
-export const gmlLanguage = LezerLanguage.define({
+export const gmlLanguage = LRLanguage.define({
   parser: parser.configure({
     props: [
       indentNodeProp.add({

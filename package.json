@@ -1,6 +1,6 @@
 {
   "name": "codemirror-lang-gml",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "GML language support for the CodeMirror code editor",
   "author": "Russell Johnston <rpjohnst@gmail.com>",
   "license": "MIT",
@@ -10,8 +10,8 @@
   },
   "module": "src/gml.js",
   "dependencies": {
-    "@codemirror/highlight": "^0.17.2",
-    "@codemirror/language": "^0.17.4",
-    "lezer-gml": "^0.1.0"
+    "@codemirror/highlight": "^0.19.7",
+    "@codemirror/language": "^0.19.7",
+    "lezer-gml": "^0.2.0"
   }
 }
